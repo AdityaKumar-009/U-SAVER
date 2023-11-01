@@ -28,7 +28,7 @@ U-Saver (derived from YouTube Video Saver) is a Python-based YouTube Video Downl
    
 2. Before running U-Saver, ensure you have the following dependencies installed:
    
-   - [python 3.10 +](https://www.python.org/downloads/): Python 3.10 or above.
+   - [python 3.10+](https://www.python.org/downloads/): Python 3.10 or above.
    - [pytube](https://pypi.org/project/pytube/): A Python library for downloading YouTube videos.
    - [PyAudio](https://pypi.org/project/PyAudio/): Required for voice recognition and audio processing.
    - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/): Used for voice recognition.
