@@ -1,0 +1,24 @@
+first install pyinstaller using pip command [pip install pyinstaller]or install it from python packages tab in pycharm(near the terminal tab)
+
+
+---You cannot add images to a single exe exported file so removed the --onefile command(--onefile command will convert the file into one but when you open that single exe file it just give error)
+OLD--
+pyinstaller --noconfirm --onefile --windowed --icon=logo_icon.ico --add-data "Logo.png;." --add-data "sun-valley.tcl;." --add-data "logo_Dark.png;." --add-data "logo_Light.png;." --add-data "mic_logo.png;." --add-data "theme;theme/" U-saver.py
+
+NEW---!!!!WORKING!!!------->
+
+pyinstaller --windowed --icon=logo_icon.ico --add-data "Logo.png;." --add-data "sun-valley.tcl;." --add-data "logo_Dark.png;." --add-data "logo_Light.png;." --add-data "mic_logo.png;." --add-data "theme;theme/" U-saver.py
+--windowed command if u want to hide the CLI or console 
+
+Other method:
+[I get the code idea from this module ;)]
+first install auto-py-to-exe using pip [pip install auto-py-to-exe]or from packages tab in pycharm
+----IT HAS GUI SO IT IS WAY SIMPLE TO EXPORT YOUR PYTHON FILE THAT CONTAINS MANY IMAGES AND FOLDER (AND GIVE AN ICON AS WELL) TO AN EXE FILE
+
+
+CODE FROM auto-py-to-exe(it works from pyinstaller or you can copy this code and paste it into terminal as well)
+pyinstaller --noconfirm --windowed --icon "C:/Users/Aditya/Desktop/U-SAVER (DT-PROJECT group 8 SEM1)/logo_icon.ico" --add-data "C:/Users/Aditya/Desktop/U-SAVER (DT-PROJECT group 8 SEM1)/Logo.png;." --add-data "C:/Users/Aditya/Desktop/U-SAVER (DT-PROJECT group 8 SEM1)/logo_Dark.png;." --add-data "C:/Users/Aditya/Desktop/U-SAVER (DT-PROJECT group 8 SEM1)/logo_Light.png;." --add-data "C:/Users/Aditya/Desktop/U-SAVER (DT-PROJECT group 8 SEM1)/mic_logo.png;." --add-data "C:/Users/Aditya/Desktop/U-SAVER (DT-PROJECT group 8 SEM1)/sun-valley.tcl;." --add-data "C:/Users/Aditya/Desktop/U-SAVER (DT-PROJECT group 8 SEM1)/theme;theme/" "C:/Users/Aditya/Desktop/U-SAVER (DT-PROJECT group 8 SEM1)/U-SAVER.py"
+In above code you have to give the specific directory of the respective file.
+
+
+So I suggest just use auto-py-to-exe or simply write the first code in your pycharm terminal
