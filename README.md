@@ -32,7 +32,7 @@ U-Saver (derived from YouTube Video Saver) is a Python-based YouTube Video Downl
    - [pytube](https://pypi.org/project/pytube/): A Python library for downloading YouTube videos.
    - [PyAudio](https://pypi.org/project/PyAudio/): Required for voice recognition and audio processing.
    - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/): Used for voice recognition.
-   - [Pillow](https://pypi.org/project/Pillow/): Used for storing video thumbnail image (will be required for Version 2.0).
+   - [Pillow](https://pypi.org/project/Pillow/): Used for storing video thumbnail image (required for version 2.0).
 
        ```bash
        pip install pytube PyAudio SpeechRecognition Pillow
@@ -42,9 +42,9 @@ U-Saver (derived from YouTube Video Saver) is a Python-based YouTube Video Downl
 4. Locate and run the U-SAVER.py file to start the U-Saver application.
    
    - Example: for U-SAVER version 1.0
-     - locate to folder `U-SAVER 1.0`/`CODE`/[U-SAVER.py]()
+     - locate to folder [U-SAVER 1.0/CODE/U-SAVER.py](https://github.com/AdityaKumar-009/U-SAVER/blob/0c22f4fd4423cd25661c9d437dc4193b1b01ad65/U-SAVER%201.0/CODE/U-SAVER.py)
    - Similarly, for U-SAVER version 2.0
-     - locate to folder `U-SAVER 2.0`/[U-SAVER_2.0.py]()
+     - locate to folder [U-SAVER 2.0/U-SAVER_2.0.py](https://github.com/AdityaKumar-009/U-SAVER/blob/0c22f4fd4423cd25661c9d437dc4193b1b01ad65/U-SAVER%202.0/U-SAVER_2.0.py)
 
 ## License
 
