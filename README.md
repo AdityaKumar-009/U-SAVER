@@ -2,6 +2,11 @@
 
 U-Saver (derived from YouTube Video Saver) is a Python-based YouTube Video Downloader application built using the tkinter library for the user interface. It allows users to easily download YouTube videos by providing a video URL, downloading videos using keywords, or even through voice recognition. The app features different themes for user interface with both light and dark modes.
 
+## User Interface
+
+<img src="https://github.com/AdityaKumar-009/U-SAVER/assets/108915964/c1af87ab-32c1-4b9f-8e51-4508d3fa0772" width=500px>
+<img src="https://github.com/AdityaKumar-009/U-SAVER/assets/108915964/5d84091a-f775-4861-a6d2-9a44d95d51ec" width=500px>
+
 ## Features
 
 - **YouTube URL Video Download**: Users can input a YouTube video URL into the Entry Box and download the video by clicking the "Download" button.
